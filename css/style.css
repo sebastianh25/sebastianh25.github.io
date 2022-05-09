@@ -1,0 +1,236 @@
+
+* {margin: 0;
+    padding: 0;}
+
+
+
+body {background-color: rgb(163, 255, 249) ;
+    background: url(../images/FONDO.jpg);
+    background-size: 1520px;
+
+
+
+
+
+}
+
+
+
+
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+b{
+    font-family: 'Mulish', sans-serif;
+font-family: 'Pacifico'
+}
+
+.contenedor{
+    width: 75%;
+  
+    padding: 1em;
+  margin: auto;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+      color:rgb(255, 255, 255);
+      text-align : center;
+      font-size: 50px;
+     
+    }
+
+    
+    .caja {
+        border-radius: 100px ;
+        padding: 30px ;
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: space-around;
+      
+    }
+
+    .card {
+        background: linear-gradient(to bottom, rgb(84, 232, 249) 0%, rgba(0, 198, 233, 0.83) 56%, rgba(0, 174, 255, 0.7) 100%);
+        color:black ;
+        margin: 50px ;
+        padding: 60px ;
+        flex-grow: 1;
+        flex-basis: 0;
+        border-radius: 60px 200px 200px 200px;
+        -moz-border-radius: 60px 200px 200px 200px;
+        -webkit-border-radius: 60px 60px 200px 200px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+.card a { 
+    width: auto; 
+    height: auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+   
+
+.nav li  {
+ display: inline;
+margin: 10px ;
+
+font-size: 30px;
+color: black;
+
+ 
+   }
+
+
+  .nav li:hover{
+      
+   border-radius: 20px;
+      font-size: 40px;
+     padding: auto;
+     transition: 0.5s;
+    
+}
+ 
+
+
+
+.nav{
+    
+    text-align: center;
+    padding: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    background: linear-gradient(to right, rgba(0, 253, 93, 0.7) 0%, rgb(227, 227, 227) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+img {
+    width: 80%;
+    height: auto;
+    box-shadow: rgba(114, 114, 114, 0.4) 5px 5px, rgba(177, 177, 177, 0.3) 10px 10px, rgba(179, 178, 178, 0.2) 15px 15px, rgba(182, 180, 180, 0.1) 20px 20px, rgba(226, 226, 226, 0.05) 25px 25px;
+    margin: 30px;
+    
+}
+
+
+
+ 
+  img:hover{ 
+    width: 600px; 
+    height: 450px;
+  
+
+  }
+
+
+ 
+
+
+
+
+  .nav1 li  {
+    display: inline;
+   margin: 10px ;
+   font-size: 20px;
+   color: black;
+   padding: 10px;
+
+font-family: 'NTR', sans-serif;
+    
+      }
+
+  .nav1 li:hover{
+      background-color: black;
+      border-radius: 29px 200px 200px 200px;
+      -moz-border-radius: 29px 200px 200px 200px;
+      -webkit-border-radius: 29px 200px 200px 200px;
+    font-size: 30px;
+   color: white;
+   padding: auto;
+   transition: 2s;
+}
+
+.nav1{
+    
+    text-align: center;
+   padding: 30px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(227,227,227,1) 100%);
+  
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.cajafondo{
+background-size: 1520px;
+padding: 200px;
+margin-bottom: 80px;
+}
+
+
+.nav2 li  {
+    display: inline;
+   margin: 10px ;
+   font-size: 20px;
+   color: black;
+   padding: 10px;
+
+font-family: 'NTR', sans-serif;
+    
+      }
+
+.nav2 li:hover{
+    background-color: rgb(12, 0, 183);
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+  font-size: 30px;
+ color: white;
+ padding: auto;
+ transition: 2s;
+}
+
+.nav2{
+  
+  text-align: center;
+ padding: 30px;
+background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(227,227,227,1) 100%);
+
+}
+
+li :nth-last-child(1){
+    text-align: center;
+}
+
+
+.logo{
+    margin: 1px;
+    padding: 1px;
+    width: 350;
+height: 500;
+
+}
+.logo img{
+width: 20%;
+height: 20%;
+} 
+.es{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:rgb(255, 255, 255);
+    text-align : center;
+    font-size: 30px;
+margin-top: 300px;
+margin-left: 100px;
+margin-right: 100px; }
+
+
